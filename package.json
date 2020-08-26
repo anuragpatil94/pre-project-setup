@@ -1,0 +1,23 @@
+{
+  "name": "sampleprojectsetup",
+  "version": "1.0.0",
+  "description": "Sample Project Pre-Setup",
+  "main": "src/index.js",
+  "scripts": {
+    "format": "prettier --write \"**/*.+(js|md|ts|css|sass|less|graphql|yml|yaml|scss|json|vue)\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuragpatil94/pre-project-setup.git"
+  },
+  "author": "Anurag Patil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anuragpatil94/pre-project-setup/issues"
+  },
+  "homepage": "https://github.com/anuragpatil94/pre-project-setup#readme",
+  "devDependencies": {
+    "prettier": "^2.1.1"
+  }
+}
